@@ -2,3 +2,5 @@
 ### This file contains my completed portfolio with working links and added customization.
 
 ![alt text](./assets/images/sc.png)
+
+### https://krezket.github.io/second-challenge/
