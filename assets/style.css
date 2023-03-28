@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --primary: darkred;
+    --main: gray;
+    --card: lightblue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    line-height: 1;
+  }
+
+.tony {
+    width: 90px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    background-color: var(--primary);
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    background: linear-gradient(white, red);
+    display: inline;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 0 10px 40px 10px;
+}
+
+li:hover {
+    box-shadow: 0 0 10px inset black;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    background: linear-gradient(gray, black);
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 200px;
+    float: left;
+    min-height: 100vh;
+    min-width: 20vw;
+    align-items: center;
+    background-color: var(--main);
+}
+
+aside h1 {
+    margin: 0 auto;
+}
+
+.aboutme {
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 100px;
+}
+
+.mywork {
+    padding-right: 10px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 90px;
+}
+
+article {
+    background: linear-gradient(white, darkred);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.first {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-height: 160px;
+    font-size: 20px;
+    margin: 20px 10px 75px 10px;
+}
+
+.card {
+    flex: 0 0 90%;
+    font-size: 30px;
+    margin: 10px 10px 20px 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.pwd {
+    border: 2px dashed black;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.card h3 {
+    margin-top: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px inset black;
+}
+
+footer {
+    display: flex;
+    font-size: larger;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 110px 0;
+    background-color: var(--main);
+}
